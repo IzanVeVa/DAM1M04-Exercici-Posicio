@@ -1,0 +1,22 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+.menu{
+    position:fixed;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    color: aqua;
+}
+
+.peu{
+    display: block;
+    position: fixed;
+    bottom: 0;
+}
+
+a{
+    color: aqua;
+}
