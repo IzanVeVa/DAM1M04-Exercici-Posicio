@@ -6,9 +6,10 @@ html{
 .menu{
     position:fixed;
     top: 0;
-    position: sticky;
     width: 100%;
-    color: aqua;
+    margin: 10px;
+    background-color: darkgreen;
+    padding: 5px;
 }
 
 .peu{
@@ -17,6 +18,57 @@ html{
     bottom: 0;
 }
 
+body{
+    margin-top: 70px;
+}
+
+.contenidor{
+    display: block;
+    padding: 10px;
+    max-width: 1100px;
+    margin: auto;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.boto_cridaner{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+
+
+.infoblocks{
+    vertical-align: top;
+    color: black;
+    align-content: center;
+    display: inline-block;
+    background-color: violet;
+    height: 180px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.infoblocks > span{
+    background-color: greenyellow;
+    margin: 5px;
+    padding: 1px;
+}
+
+.beneficis{
+    color: black;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+}
+
+
+
+
+
+
 a{
-    color: aqua;
+    color: orange;
 }
