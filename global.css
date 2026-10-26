@@ -91,7 +91,41 @@ body{
     align-items: center;
 }
 
+.contactgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+}
+
+.cl{
+    background-color: aquamarine;
+    color: black;
+    padding: 7px;
+    font-size: large;    
+    border-radius: 5px
+}
+
+.cajita{
+    display: block;
+    background-color: white;
+    border: 1px solid;
+}
+
+.ultimacajita{
+    display: block;
+    background-color: white;
+    border: 1px solid;
+    height: 100px;    
+}
 
 a{
     color: orange;
+}
+
+p{
+font-size: medium;
+}
+
+li{
+    font-size: medium;
 }
