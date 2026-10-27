@@ -38,6 +38,13 @@ body{
     width: 200px;
     height: 50px;
     font-size: 25px;
+    padding: 6px;
+    color: black;
+}
+
+.boto_cridaner:hover{
+    color: black;
+    background-color: rgb(205, 45, 45);
 }
 
 
@@ -115,6 +122,7 @@ body{
     display: block;
     background-color: white;
     border: 1px solid;
+    cursor: text;
 }
 
 .ultimacajita{
@@ -122,6 +130,7 @@ body{
     background-color: white;
     border: 1px solid;
     height: 100px;    
+    cursor: text;
 }
 
 a{
